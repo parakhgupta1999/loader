@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loader</title>
+</head>
+<style>
+    * {
+        padding: 0;
+        box-sizing: border-box;
+        margin: 0%;
+        background: lawngreen;
+    }
+
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .loader {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 20px;
+        height: 222px;
+        width: 222px;
+        border: 30px dotted rgb(249, 249, 249);
+        border-radius: 50%;
+        animation: gola 10s infinite;
+
+    }
+
+
+
+    @keyframes gola {
+        from {
+            transform: rotate(0deg);
+        }
+
+        to {
+            transform: rotate(360deg);
+        }
+
+    }
+</style>
+
+<body>
+    <div class="loader">ok
+
+        ramu </div>
+</body>
+
+</html>
